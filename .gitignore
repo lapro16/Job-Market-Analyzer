@@ -1,0 +1,22 @@
+# Виртуальные окружения
+Job_Market_Analyzer-env/
+.venv/
+
+# Настройки IDE и кэши Python
+.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Локальные секреты (образец настроек можно хранить в Git)
+.env
+.env.*
+!.env.example
+secrets/
+
+# Рабочие выгрузки, временные файлы и журналы
+exports/
+tmp/
+temp/
+*.tmp
+*.log
